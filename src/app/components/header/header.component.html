@@ -1,0 +1,5 @@
+<header *ngIf="user" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: #f3f3f3;">
+    <div>Welcome, {{ user.username }}</div>
+    <button (click)="logout()">Logout</button>
+  </header>
+  
